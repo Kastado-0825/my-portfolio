@@ -6,10 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio</title>
+    <title>My Portfolio ver.2025</title>
+
+    <!--リセットCSS-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/destyle.css@3.0.2/destyle.css"
+    />
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans+JP&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
-    <h1>ポートフォリオサイト</h1>
+    <header>
+      <div class="container flex pop">
+        <a href="" class="logo"> <span>my</span>portfolio ver.2025</a>
+        <nav>
+          <ul class="header_menu flex">
+            <li><a href="#top">Top</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Gallery">Gallery</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="top" class="container"></section>
+      <section id="hero" class="container">
+        <div class="hero_inner">
+          <p class="pop">WebExpert Portfolio</p>
+          <h1><span>Rento</span>Kohiraba</h1>
+        </div>
+      </section>
+
+      <section id="about" class="container">
+        <div class="heading dancing">Profile</div>
+        <h2 class="title pop">about&nbsp;me</h2>
+        <h3 class="dancing">プリン好き！ゲーム好き！</h3>
+        <div class="flex">
+          <div class="columm-2">
+            <p class="text"><strong>NAME:</strong>小平場蓮翔</p>
+            <p class="text"><strong>AGE:</strong>20</p>
+            <p class="text"><strong>BORN in:</strong>大阪</p>
+            <p class="text"><strong>UNIVERSITY:</strong>同志社大学</p>
+            <p class="text">
+              <strong>FACULTY:</strong>理工学部情報システムデザイン学科
+            </p>
+            <p class="text"><strong>GRADE:</strong>3年</p>
+            <p class="text"><strong>HOBBY:</strong>カフェ、ゲーム</p>
+          </div>
+          <div class="columm-2 about_img"></div>
+        </div>
+      </section>
+
+      <section id="Gallery" class="container">
+        <div class="heading dancing">Pictures</div>
+        <h2 class="title pop">Gallery</h2>
+        <h3 class="dancing">思い出の数々</h3>
+        <div class="content">
+          <div id="mainvisual">
+            <img src="images\mesi.png" alt="" />
+          </div>
+
+          <ul id="thumbnail">
+            <li><img src="images\korea.png" alt="" /></li>
+            <li><img src="images\mesi.png" alt="" /></li>
+            <li><img src="images\siro.JPG" alt="" /></li>
+            <li><img src="images\tora.JPG" alt="" /></li>
+            <li><img src="images\dougo.png" alt="" /></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
     <script src="main.js"></script>
   </body>
 </html>
