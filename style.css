@@ -52,7 +52,7 @@ header {
 }
 
 #hero {
-  background-image: url(../images/hero.png);
+  background-image: url(/images/hero.png);
   background-position: center;
   background-size: cover;
   height: 540px;
@@ -136,7 +136,7 @@ header {
 }
 
 .about_img {
-  background-image: url(../images/about.png);
+  background-image: url(/images/about.png);
   background-position: center;
   background-size: cover;
   height: 400px;
